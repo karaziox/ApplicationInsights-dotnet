@@ -357,7 +357,7 @@
 
             if (string.IsNullOrEmpty(this.ResponseCode))
             {
-                this.ResponseCode = this.Success.Value ? "200" : string.Empty;
+                this.ResponseCode = this.Success.Value ? "200" : "500";
             }           
         }
     }
